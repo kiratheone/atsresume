@@ -1,7 +1,7 @@
 const DefaultResumeData = {
   name: "Arik Achmad",
   position: "Software Engineer",
-  contactInformation: "+6285749084471",
+  contactInformation: "+6285749084***",
   email: "arikarik.ae@gmail.com",
   address: "Bandung, Indonesia",
   profilePicture: "",
