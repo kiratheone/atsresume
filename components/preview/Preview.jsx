@@ -198,7 +198,7 @@ const Preview = () => {
           )}
         />
         <DragDropContext onDragEnd={onDragEnd}>
-          <div className="f-col items-center mb-2">
+          <div className="f-col items-center">
             {resumeData.profilePicture.length > 0 && (
               <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-fuchsia-700">
                 <Image
@@ -250,18 +250,18 @@ const Preview = () => {
             </div>
           </div>
           
-          <hr className="border-dashed my-2" />
+          <hr className="border-dashed my-2 mb-3" />
           
-          <div className="f-col mb-2">
+          <div className="f-col mb-3">
               {resumeData.summary.length > 0 && (
-                <div className="mb-1">
+                <div className="mb-3">
                   <h2 className="section-title mb-1 border-b-2 border-gray-300">
                     Summary
                   </h2>
                   <p className="content break-words">{resumeData.summary}</p>
                 </div>
               )}
-              <div>
+              <div className="mb-3">
                 {resumeData.education.length > 0 && (
                   <div className="mb-1">
                     <h2 className="section-title mb-1 border-b-2 border-gray-300">
@@ -291,11 +291,11 @@ const Preview = () => {
                         index={index}
                       >
                         {(provided, snapshot) => (
-                          <div
+                          <div 
                             ref={provided.innerRef}
                             {...provided.draggableProps}
                             {...provided.dragHandleProps}
-                            className={`mb-1 ${
+                            className={`mb-3 ${
                               snapshot.isDragging &&
                               "outline-dashed outline-2 outline-gray-400 bg-white"
                             }`}
@@ -316,7 +316,7 @@ const Preview = () => {
               />
           </div>
 
-          <div className="f-col mb-2">
+          <div className="f-col mb-3">
             {resumeData.workExperience.length > 0 && (
               <Droppable droppableId="work-experience" type="WORK_EXPERIENCE">
                 {(provided) => (
