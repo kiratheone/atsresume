@@ -7,7 +7,7 @@ Based on [Saurav Hathi](https://github.com/sauravhathi) Repo, I created a new te
 ## Demo
 
 #### [http://atsresume.arikachmad.com/](http://atsresume.arikachmad.com/)
-![image](https://user-images.githubusercontent.com/61316762/218017511-fbbaa7da-6154-449f-9e46-8de45b0e6c29.png)
+![image](https://raw.githubusercontent.com/kiratheone/atsresume/refs/heads/main/images/images-1.png)
 
 ### Resume Score
 #### https://www.resumego.net/resume-checker/
