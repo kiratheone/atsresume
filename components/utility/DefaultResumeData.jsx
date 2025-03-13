@@ -1,57 +1,79 @@
 const DefaultResumeData = {
-  name: "MARCUS HALL",
-  position: "Developer",
-  contactInformation: "+1-555-0100",
-  email: "beddylea@gmail.com",
-  address: "San Francisco, CA",
+  name: "Arik Achmad",
+  position: "Software Engineer",
+  contactInformation: "+6285749084471",
+  email: "arikarik.ae@gmail.com",
+  address: "Bandung, Indonesia",
   profilePicture: "",
   socialMedia: [
     {
       socialMedia: "Github",
-      link: "github.com//bedivere-lea",
+      link: "github.com//kiratheone",
     },
     {
       socialMedia: "LinkedIn",
-      link: "linkedin.com/in/bedivere-lea",
+      link: "linkedin.com/in/arikachmad",
     },
     {
       socialMedia: "Website",
-      link: "bedivere-lea.github.io",
+      link: "arikachmad.com",
     },
   ],
-  summary: "Resourceful Developer with 11 years of experience in designing and developing user interfaces, testing and training employees. Skilled at utilizing a wide variety of tools and programs to provide effective applications.",
+  summary: "Results-driven Mobile Developer with 8+ years of experience in designing, developing, and optimizing high-performance mobile applications. Adept at leading teams, implementing modern architectures, and improving CI/CD pipelines. Passionate about staying ahead of technology trends and mentoring the next generation of developers.",
   education: [
     {
-      "school": "Bachelor of Computer Science",
-      "degree": "New York University",
-      "startYear": "2020-08-20",
-      "endYear": "2024-07-01"
+      "school": "Brawijaya University (GPA: 3.0/4.0)",
+      "degree": "Bachelor of Computer Science",
+      "startYear": "2010-01-01",
+      "endYear": "2015-04-01"
     },
   ],
   workExperience: [
     {
-      "company": "Torph TTC",
-      "position": "Developer",
-      "description": "Torph TTC is a global software company that offers user interface UI development tools and components for a range of developer applications across all platforms.",
-      "keyAchievements": "Created and maintained 10 web applications for numerous national and foreign clients.\nEnsured that the user interfaces and user experience of the software applications developed by the team met at least 80% of users expectations.\nCreated and analyzed 500 unit test cases.\nDeveloped python scripts to automate image's noise-reduction process which helped improve research analysis time by 40%.\nEstablished and lead a team of 10 people; covering every key role in the early stages.",
-      "startYear": "2023-02-16",
-      "endYear": "2023-02-21"
+      "company": "Radyalabs Technology",
+      "position": "Vp Engineering",
+      "description": "",
+      "keyAchievements": "Spearheaded the mobile engineering strategy, aligning with business goals\nImproved CI/CD process, reducing deployment time by 15%\nStandardized best practices for development, increasing efficiency by 20%",
+      "startYear": "2023-02-01",
     },
     {
-      "company": "Reilty Group",
-      "position": "Front End Web Developer",
-      "description": "Reilty Group is an industry-leading provider of online gambling software and solutions.",
-      "keyAchievements": "Increased by 35% the reach of users to the platform, over the installation of the web platform in mobile devices.\nDelivered 30 web solutions.\nReplaced 1 full-time web developer under part-time employment achieving a productivity gain of over 60% as measured by working hours.\nWorked with more than 4 different teams at different points of time and provided end-to-end solutions for clients.",
-      "startYear": "2023-02-22",
-      "endYear": "2023-03-09"
+      "company": "Radyalabs Technology",
+      "position": "Head of Mobile",
+      "description": "",
+      "keyAchievements": "Defined and implemented mobile app architecture best practices\nManaged a cross-functional team to deliver high-quality mobile solutions\nConducted regular code reviews and mentored junior developers\nStandardized Git Flow and CI/CD pipelines for mobile teams",
+      "startYear": "2019-02-01",
     },
     {
-      "company": "HellX",
-      "position": "Python Developer",
-      "description": "Heller is a Software Editor specialized in logistics management.",
-      "keyAchievements": "Developed several automation systems - saved over $50,000 annually.\nJoined the team as #10 employee as a developer working directly with the biggest customers.\nInvolved in coding as per the requirement, delivered well ahead of time which saved project cost by 20%.\nReduced database size by nearly 50% and improved its performance by 20%.\nDelivery time of good reduced by 50%.",
-      "startYear": "2023-02-22",
-      "endYear": "2023-03-09"
+      "company": "Radyalabs Technology",
+      "position": "Mobile Developer",
+      "description": "",
+      "keyAchievements": "Developed and maintained Android applications for multiple clients\nCreated and maintained a Base Android Project for team efficiency\nImplemented modularization, improving code maintainability",
+      "startYear": "2018-06-01",
+      "endYear": "2023-01-01"
+    },
+    {
+      "company": "Dicoding Academy",
+      "position": "Reviewer",
+      "description": "",
+      "keyAchievements": "Reviewed courses like Menjadi Android Developer Expert and Belajar Jetpack Pro\nProvided feedback to improve learning experiences",
+      "startYear": "2017-01-01",
+      
+    },
+    {
+      "company": "Dicoding Indonesia",
+      "position": "Front End Developer",
+      "description": "",
+      "keyAchievements": "Maintained Dicoding Academy curriculum and website\nConducted UX research & analysis for improving user experience",
+      "startYear": "2016-03-01",
+      "endYear": "2018-05-01"
+    },
+    {
+      "company": "Raion Studio",
+      "position": "Android Developer",
+      "description": "",
+      "keyAchievements": "Developed Android applications for internal product and clients project",
+      "startYear": "2014-01-01",
+      "endYear": "2015-12-01"
     }
   ],
   projects: [],
@@ -59,29 +81,26 @@ const DefaultResumeData = {
     {
       title: "Technical Skills",
       skills: [
-        "JavaScript", "Python", "Web Services", "C++", "HTML5", "CSS", "SQL", "User Interface", "Creativity"
+        "Java", "Kotlin", "Dart", "Swift", "Flutter", "Android", "Python", "UI/X"
       ]
     },
     {
       title: "Soft Skills",
       skills: [
-        "Collaboration", "Problem-solving", "Communication", "Time management", "Result-oriented"
+        "Collaboration", "Problem-solving", "Communication", "Resource Planing", "Mentoring"
       ]
     },
     {
       title: "Additional Skills",
       skills: [
-        "Public Speaking", "Writing", "Research"
       ] 
     }
   ],
   languages: [
     "English",
-    "Hindi",
+    "Indonesia",
   ],
   certifications: [
-    "Certified Web Professional-Web Developer",
-    "Java Development Certified Professional",
   ],
 };
 
