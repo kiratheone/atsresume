@@ -1,9 +1,9 @@
 import Head from "next/head";
 
 export default function Meta({ title, keywords, description }) {
-    const homepage = "https://atsresume.vercel.app/";
-    const logo = "https://atsresume.vercel.app/assets/logo.png";
-    const fevicon = "https://atsresume.vercel.app/assets/favicon.ico";
+    const homepage = "http://atsresume.arikachmad.com/";
+    const logo = "http://atsresume.arikachmad.com/assets/logo.png";
+    const fevicon = "http://atsresume.arikachmad.com/assets/favicon.ico";
 
     function isiteJsonLd() {
         return {
@@ -14,23 +14,23 @@ export default function Meta({ title, keywords, description }) {
                 "logo": ${logo},
                 "contactPoint": {
                     "@type": "ContactPoint",
-                    "telephone": "+91 9999999999",
+                    "telephone": "+62 8574908***",
                     "contactType": "customer service"
                 },
                 "image": ${logo},
                 "description": ${description},
-                "founder": "Saurav Hathi",
-                "foundingDate": "2023",
-                "foundingLocation": "IN",
-                "email": "xyz@gmail.com",
-                "telephone": "+91 9999999999",
-                "areaServed": "IN",
+                "founder": "Arik Achmad",
+                "foundingDate": "2025",
+                "foundingLocation": "ID",
+                "email": "arikarik.ae@gmail.com",
+                "telephone": "+62 8574908***",
+                "areaServed": "ID",
                 "keywords": ${keywords},
                 "mainEntityOfPage": ${homepage},
                 "knowsAbout": ${keywords},
                 "knowsLanguage": "English",
-                "memberOf": "Saurav Hathi",
-                "owns": "Saurav Hathi",
+                "memberOf": "Arik Achmad",
+                "owns": "Arik Achmad",
                 "publishingPrinciples": ${homepage},
                 "slogan": "Get hired with an ATS-optimized resume"
             }`
