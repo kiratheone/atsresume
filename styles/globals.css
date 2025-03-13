@@ -134,7 +134,6 @@
     }
 
     .preview::after {
-        content: "Created using http://atsresume.arikachmad.com/";
         position: fixed;
         bottom: 0;
         right: 0;
