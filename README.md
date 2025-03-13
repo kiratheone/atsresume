@@ -2,9 +2,11 @@
 
 A cutting-edge resume builder that helps job seekers create a professional, ATS-friendly resume in minutes. Our platform uses the latest technology to analyze and optimize your resume for maximum visibility and success with applicant tracking systems. Say goodbye to frustration and wasted time spent on manual resume formatting. Create your winning resume with ATSResume today and get noticed by employers.
 
+Based on [Saurav Hathi](https://github.com/sauravhathi) Repo, I created a new template to simplify and make it easier to read (according to me :D) 
+
 ## Demo
 
-#### [https://atsresume.vercel.app/](https://atsresume.vercel.app/)
+#### [http://atsresume.arikachmad.com/](http://atsresume.arikachmad.com/)
 ![image](https://user-images.githubusercontent.com/61316762/218017511-fbbaa7da-6154-449f-9e46-8de45b0e6c29.png)
 
 ### Resume Score
@@ -117,6 +119,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## Authors and acknowledgment
+## Authors
 
-- [Saurav Hathi](https://github.com/sauravhathi)
+- [Arik Achmad](https://github.com/kiratheone)
