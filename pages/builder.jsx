@@ -7,6 +7,7 @@ import Preview from "../components/preview/Preview";
 import DefaultResumeData from "../components/utility/DefaultResumeData";
 import SocialMedia from "../components/form/SocialMedia";
 import WorkExperience from "../components/form/WorkExperience";
+import OtherExperience from "../components/form/OtherExperience";
 import Skill from "../components/form/Skill";
 import PersonalInformation from "../components/form/PersonalInformation";
 import Summary from "../components/form/Summary";
@@ -73,6 +74,7 @@ export default function Builder(props) {
               <Summary />
               <Education />
               <WorkExperience />
+              <OtherExperience />
               <Projects />
               {
                 resumeData.skills.map((skill, index) => (

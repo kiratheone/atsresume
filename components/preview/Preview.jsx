@@ -410,6 +410,25 @@ const Preview = () => {
                 )}
               </Droppable>
             )}
+            {resumeData.otherExperience.length > 0 && (
+              <div div className="mb-1">
+                <h2
+                  className="section-title mb-1 border-b-2 border-gray-300 editable"
+                  contentEditable
+                  suppressContentEditableWarning
+                >
+                  Other Experience
+                </h2>
+                {resumeData.otherExperience.map((item, index) => (
+                  <div key={index} className="mb-1">
+                    <div className="flex flex-row gap-1">
+                      <p className="content i-bold">{item.title}</p>
+                      <p className="content">- {item.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
             {resumeData.projects.length > 0 && (
               <Droppable droppableId="projects" type="PROJECTS">
                 {(provided) => (

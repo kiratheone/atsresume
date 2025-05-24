@@ -76,6 +76,7 @@ const DefaultResumeData = {
       "endYear": "2015-12-01"
     }
   ],
+  otherExperience: [],
   projects: [],
   skills: [
     {
